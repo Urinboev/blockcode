@@ -1,10 +1,18 @@
 import styled from 'styled-components'
 
 export const NavContainer = styled.div`
-    position: absolute;
-    top: 25px;
-    left: calc(50% - 50px);
-    transform: translate(-50%, 0);
+    margin: 0 50px;
+
+    @media (max-width: 800px){
+        display: ${props => props.active ? "block" : "none"};
+        ul{
+            flex-direction: column;
+            align-items: center;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+    }
 `
 
 export const Nav = styled.ul`
@@ -22,5 +30,11 @@ export const NavLink = styled.li`
     }
     a:hover{
         background: #4353ff44;
+    }
+
+    @media (max-width: 800px){
+        a{
+            font-size: 25px;
+        }
     }
 `

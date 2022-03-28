@@ -6,7 +6,7 @@ function Main() {
     return (
         <MainContainer>
             <Routes>
-                <Route path="/home" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/posts" element={<Home />} />
             </Routes>
         </MainContainer>

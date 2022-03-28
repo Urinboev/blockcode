@@ -1,6 +1,7 @@
 import { BrowserRouter } from 'react-router-dom';
 import styled from 'styled-components'
 import './App.css';
+import Footer from './sections/footer';
 import Header from './sections/header';
 import Main from './sections/main';
 
@@ -18,6 +19,7 @@ function App() {
                 {/* main */}
                 <Main />
                 {/* footer */}
+                <Footer />
             </AppContainer>
         </BrowserRouter>
     );

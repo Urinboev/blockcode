@@ -25,11 +25,12 @@ export const NavLink = styled.li`
         padding: 2px 10px 4px 10px;
         border-radius: 5px;
         font-size: 16px;
-        background-color: ${props => props.active ? "#4353ff44" : "transparent"};
-        color: #4353ff;
+        background-color: ${props => props.active ? props.color : "transparent"};
+        color: ${props => props.active ? '#fff' : props.color};
     }
     a:hover{
-        background: #4353ff44;
+        color: #fff;
+        background-color: ${props => props.color};
     }
 
     @media (max-width: 800px){

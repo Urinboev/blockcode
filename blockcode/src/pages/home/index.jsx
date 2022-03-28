@@ -28,15 +28,15 @@ function Home() {
 
                 <Categories>
                     <h1>Explore Categories</h1>
-                    <CategoryBtn href='#' color='#f78f9f'>React <i class="bi bi-arrow-right"></i></CategoryBtn>
-                    <CategoryBtn href='#' color='#f719ff'>JavaScript <i class="bi bi-arrow-right"></i></CategoryBtn>
-                    <CategoryBtn href='#' color='#178f9f'>Sql <i class="bi bi-arrow-right"></i></CategoryBtn>
-                    <CategoryBtn href='#' color='#112f9f'>Solidity <i class="bi bi-arrow-right"></i></CategoryBtn>
+                    <CategoryBtn href='#' color='#f78f9f'>React <i className="bi bi-arrow-right"></i></CategoryBtn>
+                    <CategoryBtn href='#' color='#f719ff'>JavaScript <i className="bi bi-arrow-right"></i></CategoryBtn>
+                    <CategoryBtn href='#' color='#178f9f'>Sql <i className="bi bi-arrow-right"></i></CategoryBtn>
+                    <CategoryBtn href='#' color='#112f9f'>Solidity <i className="bi bi-arrow-right"></i></CategoryBtn>
                     <br />
                     
-                    <CategoryBtn href='#' color='#f78f9f'>React <i class="bi bi-arrow-right"></i></CategoryBtn>
-                    <CategoryBtn href='#' color='#f719ff'>JavaScript <i class="bi bi-arrow-right"></i></CategoryBtn>
-                    <CategoryBtn href='#' color='#178f9f'>Sql <i class="bi bi-arrow-right"></i></CategoryBtn>
+                    <CategoryBtn href='#' color='#f78f9f'>React <i className="bi bi-arrow-right"></i></CategoryBtn>
+                    <CategoryBtn href='#' color='#f719ff'>JavaScript <i className="bi bi-arrow-right"></i></CategoryBtn>
+                    <CategoryBtn href='#' color='#178f9f'>Sql <i className="bi bi-arrow-right"></i></CategoryBtn>
                 </Categories>
 
             </Container>

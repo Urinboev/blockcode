@@ -19,10 +19,10 @@ function Footer() {
                     <h1>Watch Us</h1>
                     <p>Our social media accounts</p>
                     <SocialNav>
-                        <li><SocialLink color='#f78f9f' href='#'><i class="bi bi-youtube"></i></SocialLink></li>
-                        <li><SocialLink color='#f719ff' href='#'><i class="bi bi-telegram"></i></SocialLink></li>
-                        <li><SocialLink color='#178f9f' href='#'><i class="bi bi-instagram"></i></SocialLink></li>
-                        <li><SocialLink color='#112f9f' href='#'><i class="bi bi-facebook"></i></SocialLink></li>
+                        <li><SocialLink color='#f78f9f' href='#'><i className="bi bi-youtube"></i></SocialLink></li>
+                        <li><SocialLink color='#f719ff' href='#'><i className="bi bi-telegram"></i></SocialLink></li>
+                        <li><SocialLink color='#178f9f' href='#'><i className="bi bi-instagram"></i></SocialLink></li>
+                        <li><SocialLink color='#112f9f' href='#'><i className="bi bi-facebook"></i></SocialLink></li>
                     </SocialNav>
                 </Box>
             </Section1>

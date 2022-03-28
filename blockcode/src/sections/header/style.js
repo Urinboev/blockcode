@@ -11,6 +11,8 @@ export const HeaderContainer = styled.header`
     padding: 20px 0px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     transition: .5s ease;
+    z-index: 1000;
+    background-color: #fff;
 
     @media (max-width: 800px){
         flex-direction: column-reverse;

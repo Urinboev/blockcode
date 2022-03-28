@@ -1,8 +1,11 @@
 import React from 'react'
+import HeroPost from './heroPost'
 
 function Home() {
     return (
-        <div style={{marginTop: '100px'}}>Home</div>
+        <>
+            <HeroPost />
+        </>
     )
 }
 

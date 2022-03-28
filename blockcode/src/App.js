@@ -1,8 +1,8 @@
 import { BrowserRouter } from 'react-router-dom';
 import styled from 'styled-components'
 import './App.css';
-import CustomRoutes from './CustomRoutes';
-import Header from './sections/header/header';
+import Header from './sections/header';
+import Main from './sections/main';
 
 const AppContainer = styled.div`
     width: 100%;
@@ -16,8 +16,7 @@ function App() {
                 {/* header */}
                 <Header />
                 {/* main */}
-                
-                <CustomRoutes />
+                <Main />
                 {/* footer */}
             </AppContainer>
         </BrowserRouter>

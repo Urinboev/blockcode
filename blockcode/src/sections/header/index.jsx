@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Navbar from './navbar/navbar'
-import SearchBar from './searchBar/searchBar'
+import Navbar from './navbar'
+import SearchBar from './searchBar'
 import { HeaderContainer, Logo, MenuIcon } from './style'
 
 function Header() {

@@ -12,7 +12,7 @@ function Header() {
                 <span>&lt;</span>BlockCode<span>&gt;</span>
             </Logo>
 
-            <Navbar active={menuStatus} />
+            <Navbar setMenuStatus = {setMenuStatus} active={menuStatus} />
 
             <SearchBar active={menuStatus} />
 

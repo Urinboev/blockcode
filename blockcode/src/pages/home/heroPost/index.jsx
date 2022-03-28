@@ -8,7 +8,7 @@ function HeroPost() {
                 <PostImage src='images/image1.jpg' />
                 
                 <PostBody>
-                    <Category href='#'>React</Category>
+                    <Category color='ff00ff' href='#'>React</Category>
                     <Title><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </a></Title>
                     <Body>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod iusto reiciendis enim sapiente obcaecati nulla vel veniam? Assumenda fuga magni minus natus culpa quisquam quo, ab excepturi itaque praesentium atque?</Body>
                     <Author>

@@ -14,7 +14,7 @@ export const Post = styled.div`
         width: 80%;
     }
     @media (max-width: 600px) {
-        flex-direction: column
+        flex-direction: column;
     }
 `
 
@@ -35,8 +35,8 @@ export const PostBody = styled.div`
 `
 
 export const Category = styled.a`
-    color: #c98b2e;
-    background-color: #e6a64555;
+    color: #${props => props.color};
+    background-color: #${props => props.color + '35'};
     font-size: 18px;
     padding: 5px 15px;
     border-radius: 5px;

@@ -24,6 +24,20 @@ export const Headline = styled.h1`
     font-size: 35px;
     margin-bottom: 30px;
     color: ${props => props.color};
+    text-align: left;
+    width: 80%;
+`
+
+export const ReadMoreBtn = styled.a`
+    font-size: 20px;
+    color: ${props => props.color};
+    transition: .3s ease;
+
+    :hover{
+        padding: 5px 20px;
+        border-radius: 5px;
+        background-color: ${props => props.color + '33'};
+    }
 `
 
 export const Categories = styled.div`
@@ -54,3 +68,5 @@ export const CategoryBtn = styled.a`
         background-color: ${props => props.color};
     }
 `
+
+// //////////// posts grid

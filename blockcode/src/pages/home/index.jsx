@@ -1,7 +1,7 @@
 import React from 'react'
 import PostCard from '../../components/postCard'
 import HeroPost from './heroPost'
-import { Categories, CategoryBtn, Container, Headline, PostsRow } from './style'
+import { Categories, CategoryBtn, Container, Headline, PostsRow, ReadMoreBtn } from './style'
 
 function Home() {
     return (
@@ -10,21 +10,16 @@ function Home() {
 
             <Container>
 
-                <Headline color='#2ec96f'>Trending</Headline>
+                <Headline color='#2ec96f'><i className="bi bi-grid"></i> Trending</Headline>
                 <PostsRow>
                     <PostCard />
                     <PostCard />
                     <PostCard />
                     <PostCard />
+                    <ReadMoreBtn color='#2ec96f' href='#'>Read more <i className="bi bi-arrow-right"></i></ReadMoreBtn>
                 </PostsRow>
 
-                <Headline color='#2ec96f'>Trending</Headline>
-                <PostsRow>
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                </PostsRow>
+                <Headline color='#2ec96f'><i className="bi bi-grid"></i> News</Headline>
 
                 <Categories>
                     <h1>Explore Categories</h1>

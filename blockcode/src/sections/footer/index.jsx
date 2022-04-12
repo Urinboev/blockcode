@@ -10,7 +10,7 @@ function Footer() {
                     <h1>Join Our Newsletter</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae quam dicta laboriosam voluptatum dolorem ullam numquam</p>
                     <Form>                        
-                        <Input placeholder='Enter your email address' />
+                        <Input type={'email'} placeholder='Enter your email address' />
                         <Btn>Subscribe</Btn>
                     </Form>
                 </Newsletter>
@@ -19,9 +19,9 @@ function Footer() {
                     <h1>Watch Us</h1>
                     <p>Our social media accounts</p>
                     <SocialNav>
-                        <li><SocialLink color='#f78f9f' href='#'><i className="bi bi-youtube"></i></SocialLink></li>
-                        <li><SocialLink color='#f719ff' href='#'><i className="bi bi-telegram"></i></SocialLink></li>
-                        <li><SocialLink color='#178f9f' href='#'><i className="bi bi-instagram"></i></SocialLink></li>
+                        <li><SocialLink color='#ff0000' href='#'><i className="bi bi-youtube"></i></SocialLink></li>
+                        <li><SocialLink color='#0088cc' href='#'><i className="bi bi-telegram"></i></SocialLink></li>
+                        <li><SocialLink color='#f719ff' href='#'><i className="bi bi-instagram"></i></SocialLink></li>
                         <li><SocialLink color='#112f9f' href='#'><i className="bi bi-facebook"></i></SocialLink></li>
                     </SocialNav>
                 </Box>

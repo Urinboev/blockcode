@@ -23,6 +23,11 @@ export const Section1 = styled.div`
         color: #8d8d8d;
         margin: 10px 0 40px 0;
     }
+
+    @media (max-width: 760px) {
+        flex-direction: column;
+        text-align: center;
+    }
 `
 
 export const Newsletter = styled.div`
@@ -34,6 +39,10 @@ export const Form = styled.form`
     width: 400px;
     height: 40px;
     display: flex;
+
+    @media (max-width: 760px) {
+        width: auto;
+    }
 `
 
 export const Input = styled.input`
@@ -80,11 +89,11 @@ export const SocialNav = styled.ul`
 
 export const SocialLink = styled.a`
     font-size: 30px;
-    color: ${props => props.color + '99'};
+    color: ${props => props.color};
     transition: .3s;
 
     :hover{
-        color: ${props => props.color};
+        color: ${props => props.color + '75'};
     }
 `
 
@@ -103,6 +112,11 @@ export const FooterLogo = styled.a`
     span{
         font-weight: 900;
         color: #151c69;
+    }
+
+    @media (max-width: 760px) {
+        font-size: 30px;
+        margin-right: 20px;
     }
 `
 

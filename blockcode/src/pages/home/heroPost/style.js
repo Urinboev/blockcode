@@ -8,7 +8,7 @@ export const PostContainer = styled.div`
 
 export const Post = styled.div`
     display: flex;
-    width: 60%;
+    width: 80%;
 
     @media (max-width: 1000px) {
         width: 80%;
@@ -19,7 +19,7 @@ export const Post = styled.div`
 `
 
 export const PostImage = styled.img`
-    width: 50%;
+    width: 60%;
     border-radius: 20px;
     // object-fit: cover;
     @media (max-width: 770px) {
@@ -43,7 +43,7 @@ export const Category = styled.a`
 `
 
 export const Title = styled.h1`
-    font-size: 30px;
+    font-size: 50px;
     margin: 10px 0;
     a{
         color: #171C2F;
